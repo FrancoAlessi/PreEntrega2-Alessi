@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="fondoh">
+    <header> <!-- encabezado-->
+    <h1>BIENVENIDOS A DEPOR SAN JUAN</h1>
+    <div class="centrar">
+        <img src="../img/Depor.png" alt="logo" width="150px">
+    </div>
+    <nav> 
+        <ul class="centrar">
+            <li><a href="../index.html">Inicio</a></li>
+            <li>
+                <a href="../pages/productos.html">Productos</a>
+                <ul>
+                    <li><a href="../pages/productos.html">Buzos arg</a></li>
+                    <li><a href="../pages/productos.html">Camisetas</a></li>
+                    <li><a href="../pages/productos.html">Buzos</a></li>
+                </ul>
+            </li> 
+            <li><a href="../pages/ofertas.html">Ofertas</a></li>
+            <li><a href="https://instagram.com/deporsanjuan1?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a></li>
+            <li><a href="./contacto.html">Contactanos</a> </li>    
+            <li><a href="../pages/carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+</header>  
+<main>
+    <div>
+    <h1>Si has tenido algun problema hablanos</h1>
+    </div> 
+    <fieldset>
+        <!-- Nombre y Aplleido-->
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Apellido" required>
+        </div>
+
+            <!--Telefono-->
+        <div>
+            <label for="Telefono">Telefono:</label>
+            <input type="text" name="Telefono" pattern="Telefono" placeholder="Telefono">
+            <label for="Correo">Correo:</label>
+            <input type="text" name="Correo" placeholder="Correo" >
+        </div>
+
+            <!--Genero-->
+        <div>
+            <label for="Genero">Genero:</label>
+            <input type="radio" value="Hombre" name="genero" required><span>Hombre</span>
+            <input type="radio" value="Mujer" name="Mujer"><span>Mujer</span>
+            <input type="radio" value="Otros" name="Otros"><span>Otros</span>
+        </div>
+
+            <!--Talle-->
+        <div>
+            <label for="Talle">Talle</label>
+            <select>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Largue</option>
+                <option value="XL">Extra Largue</option>
+            </select>
+        </div>
+
+            <!--Consulta-->
+        <div>
+            <label for="Consulta">Ingrese su consulta</label>
+            <div>
+                <textarea name="COnsulta" id=""" cols="30" rows="10" placeholder="Consulta"></textarea>
+            </div>
+        </div>
+
+            <!--Botones-->
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>   
+    </fieldset>
+
+</main>
+<footer>
+
+</footer>
+
+</html>

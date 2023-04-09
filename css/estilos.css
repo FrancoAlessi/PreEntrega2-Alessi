@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*menu*/
+
+.centrar{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/*submenu*/
+
+header nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: aquamarine;
+    padding: 5px 10px;
+    text-align: left;
+    margin: 0 0 0 -10;
+    border-radius: 4px;
+}
+header nav ul li ul li{
+display: block;
+}
+header nav ul li:hover ul{
+    display: block;
+}
+
+/*menu*/
+.card{ 
+    background-color: rgb(117, 165, 182); 
+    border-top:solid 3px black;
+    border-right:solid 3px black;
+    border-bottom: solid 3px black;
+    border-left:solid 3px black;
+}
+
+.fondo{
+    text-decoration-color: aqua;
+}
+td{
+    border: 5px solid rgb(46, 38, 38);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+h1{
+    color: rgb(23, 68, 81);
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: solid;
+}
+h2{
+    color: rgb(22, 67, 67);
+    font-family: sans-serif;
+    text-align: center;
+}
+h3{
+    color: rgb(9, 9, 0);
+    font-family: sans-serif;
+}
+h4{
+    color: rgb(21, 67, 79);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.imagen {
+    width: 150px;
+    background-color: blue;
+}
+
+.fondoh{
+    background: rgb(234, 216, 188);
+    background: linear-gradient(red black)
+}
+main div ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.centrar{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.camisetas{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+}
+    
+    /*Carrito*/
+
+.boton1{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.boton2{
+    padding: 5px 10px;
+}
+main section div ul li{
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.lineal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineal1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(yellow blue);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.degrade{
+    height:400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:(red);
+    border:5px solid black;
+
+
+
+    background-image: linear-gradient(red black);
+}
+.gradiante{
+    background: linear-gradient(red black)
+}
+main{
+    background-image: linear-gradient(red black);
+}
+
+
+
