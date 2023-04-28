@@ -146,9 +146,12 @@ section{
     height: 100px;
     justify-items: right;
 }
+
+/*Baner*/
+
 #baner{
-    height: 85vh;
-    background-image: url("../img/baner.jpg");
+    height: 95vh;
+    background-image: url("../img/baner.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -160,4 +163,12 @@ section{
     border: 4px solid white;
     border-radius: 4px;
 }
+.ajuste{
+    height: 700px;
+}
+.chaleco{
+    height: 100;
+    width: 200;
+}
+
 

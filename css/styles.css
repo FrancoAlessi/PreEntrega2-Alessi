@@ -1,0 +1,39 @@
+.fondoh {
+  background: rgb(0, 0, 0);
+}
+.fondoh .bk {
+  background: rgb(4, 186, 237);
+  background-color: black;
+}
+.fondoh .contacto {
+  border: 2px solid black;
+}
+
+h1 {
+  color: rgb(28, 181, 223);
+  font-family: sans-serif;
+  text-align: center;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  text-shadow: 2px 2px rgb(200, 16, 16);
+}
+
+h2 {
+  color: rgb(28, 181, 223);
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px rgb(200, 16, 16);
+}
+
+h3 {
+  color: rgb(28, 181, 223);
+  font-family: sans-serif;
+  text-shadow: 2px 2px rgb(200, 16, 16);
+}
+
+h4 {
+  color: rgb(28, 181, 223);
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px rgb(200, 16, 16);
+}/*# sourceMappingURL=styles.css.map */
